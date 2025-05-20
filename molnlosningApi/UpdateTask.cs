@@ -24,10 +24,10 @@ namespace molnlosningApi
         /// This function updates an existing task in the Azure SQL database by ID.
         ///
         /// 🔗 Endpoint: PUT /api/tasks/{id}
-        /// 🔐 Requires Function Key: Yes (?code=-2-UIwAwWSKUkFJoBU6b4XcQM0hdPKnhFlSQL9xFeeW9AzFuObb4Dg==)
+        /// 🔐 Requires Function Key: Yes  (you find the key in the Azure portal site:https://portal.azure.com/#view/WebsitesExtension/FunctionTabMenuBlade/~/functionKeys/resourceId/%2Fsubscriptions%2Fc4b7ee56-bbc7-4664-bf23-a55d20a9086f%2FresourceGroups%2FRG-yazanalnsierat%2Fproviders%2FMicrosoft.Web%2Fsites%2FmolnlosningApi%2Ffunctions%2FUpdateTask)
         /// 
         /// 📥 URL Example:
-        /// https://molnlosningapi.azurewebsites.net/api/tasks/{id}?code=-2-UIwAwWSKUkFJoBU6b4XcQM0hdPKnhFlSQL9xFeeW9AzFuObb4Dg==
+        /// https://molnlosningapi.azurewebsites.net/api/tasks?code=put_the_function_key_here
         /// 
         /// 📥 Request Body (JSON):
         /// {

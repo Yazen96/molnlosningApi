@@ -22,10 +22,10 @@ namespace molnlosningApi
         /// This function deletes a task by its ID from the Azure SQL database.
         ///
         /// 🔗 Endpoint: DELETE /api/tasks/{id}
-        /// 🔐 Requires Function Key: Yes (?code=aGOM2t_2nfRTHxgizW9_gNF71ft5Yq37LHyWouCJZ9KzAzFuDsHUVw==)
+        /// 🔐 Requires Function Key: Yes  (you find the key in the Azure portal site: https://portal.azure.com/#view/WebsitesExtension/FunctionTabMenuBlade/~/functionKeys/resourceId/%2Fsubscriptions%2Fc4b7ee56-bbc7-4664-bf23-a55d20a9086f%2FresourceGroups%2FRG-yazanalnsierat%2Fproviders%2FMicrosoft.Web%2Fsites%2FmolnlosningApi%2Ffunctions%2FDeleteTask)
         ///
         /// 📥 URL Example:
-        /// https://molnlosningapi.azurewebsites.net/api/tasks/{id}?code=aGOM2t_2nfRTHxgizW9_gNF71ft5Yq37LHyWouCJZ9KzAzFuDsHUVw==
+        /// https://molnlosningapi.azurewebsites.net/api/tasks?code=put_the_function_key_here
         ///
         /// 📤 Response:
         /// - 204 No Content (if deleted successfully)

@@ -20,10 +20,10 @@ namespace molnlosningApi
         /// This function retrieves all tasks from the Azure SQL database.
         ///
         /// 🔗 Endpoint: GET /api/tasks
-        /// 🔐 Requires Function Key: Yes (?code=qVC6nTh1qyR-lGS8Iq6sX_GCbQH5JjywsQh_UcvYxZaTAzFuOuLeDw==)
+        /// 🔐 Requires Function Key: Yes  (you find the key in the Azure portal site: https://portal.azure.com/#view/WebsitesExtension/FunctionTabMenuBlade/~/functionKeys/resourceId/%2Fsubscriptions%2Fc4b7ee56-bbc7-4664-bf23-a55d20a9086f%2FresourceGroups%2FRG-yazanalnsierat%2Fproviders%2FMicrosoft.Web%2Fsites%2FmolnlosningApi%2Ffunctions%2FGetTasks)
         /// 
         /// 📥 URL Example:
-        /// https://molnlosningapi.azurewebsites.net/api/tasks?code=qVC6nTh1qyR-lGS8Iq6sX_GCbQH5JjywsQh_UcvYxZaTAzFuOuLeDw==
+        /// https://molnlosningapi.azurewebsites.net/api/tasks?code=put_the_function_key_here
         /// 
         /// 📤 Response:
         /// - 200 OK with a JSON array of tasks

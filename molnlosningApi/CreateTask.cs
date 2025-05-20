@@ -20,10 +20,10 @@ namespace molnlosningApi
         /// This function creates a new task in the Azure SQL database.
         ///
         /// 🔗 Endpoint: POST /api/tasks
-        /// 🔐 Requires Function Key: Yes (use ?code==ZucyIsEP61X1S-3mkU1b_IgWD9a1TP9vwpkdU0Qu2Te0AzFua_R5DA==)
+        /// 🔐 Requires Function Key: Yes  (you find the key in the Azure portal site: https://portal.azure.com/#view/WebsitesExtension/FunctionTabMenuBlade/~/functionKeys/resourceId/%2Fsubscriptions%2Fc4b7ee56-bbc7-4664-bf23-a55d20a9086f%2FresourceGroups%2FRG-yazanalnsierat%2Fproviders%2FMicrosoft.Web%2Fsites%2FmolnlosningApi%2Ffunctions%2FCreateTask)
         /// 
         /// 📥 URL Example:
-        /// https://molnlosningapi.azurewebsites.net/api/tasks?code=ZucyIsEP61X1S-3mkU1b_IgWD9a1TP9vwpkdU0Qu2Te0AzFua_R5DA==
+        /// https://molnlosningapi.azurewebsites.net/api/tasks?code=put_the_function_key_here
         /// 
         /// 📥 Request Body (JSON):
         /// {

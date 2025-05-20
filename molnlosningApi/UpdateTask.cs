@@ -31,9 +31,9 @@ namespace molnlosningApi
         /// 
         /// 📥 Request Body (JSON):
         /// {
-        ///     "title": "Updated task title",
-        ///     "description": "Updated description",
-        ///     "isCompleted": true
+        ///     "Title": "Updated task title",
+        ///     "Description": "Updated description",
+        ///     "IsCompleted": true
         /// }
         ///
         /// 📤 Response:

@@ -27,9 +27,9 @@ namespace molnlosningApi
         /// 
         /// 📥 Request Body (JSON):
         /// {
-        ///     "title": "Buy groceries",
-        ///     "description": "Milk, eggs, bread",
-        ///     "isCompleted": false
+        ///     "Title": "Buy groceries",
+        ///     "Description": "Milk, eggs, bread",
+        ///     "IsCompleted": false
         /// }
         ///
         /// 📤 Response:
